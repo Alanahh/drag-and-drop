@@ -51,28 +51,32 @@
 
 
 .it1{
-    /* z-index: 1; */
     background: #ecebe3;
-    /* top: 50px;
-    left: 50px; */
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%,-50%);
 }
 .it2{
-    /* z-index: 2; */
     background: #e36315;
-    /* top: 70vh;
-    left: 50px; */
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translate(-50%,-50%);
 }
 .it3{
-    /* z-index: 3; */
     background: #e6abcc;
-    /* top: -150px;
-    left: 85%; */
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    transform: translate(-50%,-50%);
 }
 .it4{
-    /* z-index: 4; */
     background: #d9e471;
-    /* top: 48vh;
-    left: 85%; */
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    transform: translate(-50%,-50%);
 }
 .changed{
     background: #fff;
